@@ -2,15 +2,15 @@
 
 ## Lighthouse result
 
-![Lighthouse result](public\images\lighthouse.png)
+![Lighthouse result](/public/images/lighthouse.png)
 
 ## Screenshots
 
-![Mobile Screenshot](public\images\mobile-screenshot.jpeg)
+![Mobile Screenshot](/public/images/mobile-screenshot.jpeg)
 
-![Tablet Screenshot](public\images\tablet-screenshot.jpeg)
+![Tablet Screenshot](/public/images/tablet-screenshot.jpeg)
 
-![Desktop Screenshot](public\images\desktop-screenshot.jpeg)
+![Desktop Screenshot](/public/images/desktop-screenshot.jpeg)
 
 ## Mainly use
 
