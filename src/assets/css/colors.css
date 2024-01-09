@@ -1,0 +1,55 @@
+:root {
+  --clr-desaturated-red: 0 36% 70%;
+  --clr-soft-red: 0 93% 68%;
+  --clr-dark-grayish-red: 0 6% 24%;
+  --clr-gradient-1: 0 0% 100%;
+  --clr-gradient-2: 0 100% 98%;
+  --clr-gradient-3: 0 80% 86%;
+  --clr-gradient-4: 0 74% 74%;
+}
+
+.bg-gradient-1 {
+  background: hsla(0, 0%, 100%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFF5F5", GradientType=1 );
+}
+
+.bg-gradient-2 {
+  background: hsla(0, 80%, 86%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(0, 80%, 86%, 1) 0%,
+    hsla(0, 74%, 74%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(0, 80%, 86%, 1) 0%,
+    hsla(0, 74%, 74%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(0, 80%, 86%, 1) 0%,
+    hsla(0, 74%, 74%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F8BFBF", endColorstr="#EE8C8C", GradientType=1 );
+}
